@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="唯你凤巢"  preserve-order="true"  verbose="2" >
+   <test name="验证：运维人员登录创建新渠道，然后用新渠道的管理员登录"  preserve-order="true"   >
+        <classes>
+            <class name="com.dbyl.china.tests.loginTest" >
+            <methods>
+	            <include name="Login"/>
+            </methods>
+            </class>
+        </classes>
+   </test>
+   <test name="验证：账益达基本流程（创建企业、合同、服务、分配人员、记账）"  preserve-order="true"   >
+        <classes>
+            <class name="com.dbyl.china.tests.accountFlow" >
+            <methods>
+	            <include name="Flow"/>
+            </methods>
+            </class>
+        </classes>
+   </test>
+   <test name="验证：用户的增、删、改、查功能"  preserve-order="true"   >
+        <classes>
+            <class name="com.dbyl.china.tests.userADUQ" >
+            <methods>
+	            <include name="User"/>
+            </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="验证：企业主的增、删、改、查功能"  preserve-order="true"   >
+        <classes>
+            <class name="com.dbyl.china.tests.clientOwnerADUQ" >
+            <methods>
+	            <include name="clientowner"/>
+            </methods>
+            </class>
+        </classes>
+     </test>
+     <test name="验证：企业的增、删、改、查功能"  preserve-order="true"   >
+        <classes>
+            <class name="com.dbyl.china.tests.clientADUQ" >
+            <methods>
+	            <include name="clientManage"/>
+            </methods>
+            </class>
+        </classes>
+     </test>
+     <test name="验证：合同的增、改、查功能"  preserve-order="true"   >
+        <classes>
+            <class name="com.dbyl.china.tests.ContractADUQ" >
+            <methods>
+	            <include name="ContractManage"/>
+            </methods>
+            </class>
+        </classes>
+     </test>
+     <test name="验证：权限编辑功能"  preserve-order="true"   >
+        <classes>
+            <class name="com.dbyl.china.tests.rightEdit" >
+            <methods>
+	            <include name="Right"/>
+            </methods>
+            </class>
+        </classes>
+     </test>
+     <test name="验证：角色新增、编辑和修改功能"  preserve-order="true"   >
+        <classes>
+            <class name="com.dbyl.china.tests.roleADUQ" >
+            <methods>
+	            <include name="Role"/>
+            </methods>
+            </class>
+        </classes>
+     </test>
+</suite>
