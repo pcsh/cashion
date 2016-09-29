@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="E:/seleniumS/0 自动化SeleniumTestNG/jar/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="E:/seleniumS/0 自动化SeleniumTestNG/jar/httpclient-4.2.6.jar"/>
+	<classpathentry kind="lib" path="E:/seleniumS/0 自动化SeleniumTestNG/jar/httpcore-4.2.5.jar"/>
+	<classpathentry kind="lib" path="E:/seleniumS/0 自动化SeleniumTestNG/jar/httpmime-4.2.6.jar"/>
+	<classpathentry kind="lib" path="E:/seleniumS/0 自动化SeleniumTestNG/jar/java-json.jar"/>
+	<classpathentry kind="lib" path="E:/seleniumS/0 自动化SeleniumTestNG/jar/javax.mail.jar"/>
+	<classpathentry kind="lib" path="E:/seleniumS/0 自动化SeleniumTestNG/jar/jexcelapi_2_6_12.zip"/>
+	<classpathentry kind="lib" path="E:/seleniumS/0 自动化SeleniumTestNG/jar/jsch-0.1.51.jar"/>
+	<classpathentry kind="lib" path="E:/seleniumS/0 自动化SeleniumTestNG/jar/log4j-1.2.9.jar"/>
+	<classpathentry kind="lib" path="E:/seleniumS/0 自动化SeleniumTestNG/jar/postgresql-9.3-1102.jdbc41.jar"/>
+	<classpathentry kind="lib" path="E:/seleniumS/0 自动化SeleniumTestNG/jar/selenium-server-standalone-2.44.0.jar"/>
+	<classpathentry kind="lib" path="E:/seleniumS/0 自动化SeleniumTestNG/jar/sikulixsetup-1.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/seleniumS/0 自动化SeleniumTestNG/jar/testng-xslt-1.1.zip"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

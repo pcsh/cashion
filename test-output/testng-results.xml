@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="510608" started-at="2016-09-29T08:51:08Z" finished-at="2016-09-29T08:59:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="510608" started-at="2016-09-29T08:51:08Z" finished-at="2016-09-29T08:59:39Z">
+      <class name="com.dbyl.china.tests.accountFlow">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.dbyl.china.tests.accountFlow@1a75098]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2016-09-29T16:51:08Z" finished-at="2016-09-29T16:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Flow()[pri:0, instance:com.dbyl.china.tests.accountFlow@1a75098]" name="Flow" duration-ms="510583" started-at="2016-09-29T16:51:08Z" finished-at="2016-09-29T16:59:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flow -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.dbyl.china.tests.accountFlow@1a75098]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-09-29T16:59:39Z" finished-at="2016-09-29T16:59:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.dbyl.china.tests.accountFlow -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

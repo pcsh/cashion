@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="唯你凤巢（马来2）"  preserve-order="true"  verbose="2" >
+  <test name="验证：运维人员登录创建新渠道，然后用新渠道的管理员登录"  preserve-order="true"   >
+        <classes>
+            <class name="com.dbyl.tests.loginTest" >
+            <methods>
+	            <include name="loginTest"/>
+            </methods>
+            </class>
+        </classes>
+        
+        
+        
+  </test>
+</suite>
